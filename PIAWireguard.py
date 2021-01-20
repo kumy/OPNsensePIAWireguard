@@ -161,8 +161,8 @@ if opnsenseWGUUID == '':
             "name": opnsenseWGName,
             "port": opnsenseWGPort,
             "tunneladdress": opnsenseWGIP,
-            "disableroutes": '1',
-            "gateway": opnsenseWGGateway,
+            "disableroutes": '0',
+            "gateway": '',
             }
     }
     headers = {'content-type': 'application/json'}
